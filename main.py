@@ -9,3 +9,4 @@ if __name__ == "__main__":
     while(not b.exist()):
         i = input("Please enter the file you wish to act upon: ")
         b = Operation(i);
+    b.prints()
